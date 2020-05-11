@@ -1,0 +1,22 @@
+/*+-To apply and save the changes, we open the VS Code Terminal and enter this Code:_  sass --watch sass:css
+        And then Save.*/
+* {
+        font-size: 2rem;
+}
+
+body {
+        background-image: url("../img/freedom_wallpaper.jpg");
+}
+
+#title{
+        opacity: 0.8;
+}
+
+.quote-bg {
+        background-color: #ffd31d;
+        opacity: 0.2;
+}
+
+.quote-bg:hover {
+        opacity: 0.7;
+      }
