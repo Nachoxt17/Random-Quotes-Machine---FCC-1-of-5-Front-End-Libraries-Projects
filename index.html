@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes Machine - FCC 1/5 Front End Libraries Projects</title>
+        <!--8 - Random Quotes Machine - FCC 1 of 5 Front End Libraries Projects.-->
+
+     <!--Add Google Fonts.-->
+         <!--Insert Google Font Here.-->
+     <!--Add Font Awesome.-->
+     <script src="https://kit.fontawesome.com/49fa98edb7.js" crossorigin="anonymous"></script>
+     <!--Add Bootstrap 4 CSS.-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!--Add JQuery.-->
+     <script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
+     <!--Add scrollreveal.-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <!--Custom CSS(Mi CSS Personalizado).-->
+     <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1 class="text-center my-4" id="title">Random Quotes about<br> The Importance of Freedom</h1>
+    <br>
+    <wrapper id="quote-box" class="text-center my-5 mx-5">
+        <div class="card quote-bg">
+            <div class="card-body">
+              <blockquote class="blockquote my-auto">
+                <div id="text" class="mx-5"></div>
+                <footer class="blockquote-footer">
+                    <div id="author" class="text-right mr-5"></div>
+                </footer>
+              </blockquote>
+              <button id="new-quote" class="btn btn-warning" onClick="generateQuote();">New Quote</button>
+              <a id="tweet-quote" class="btn btn-info" title="Tweet this quote!" target="_blank"
+              href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22The%20two%20most%20important%20days%20in%20your%20life%20are%20the%20day%20you%20are%20born%20and%20the%20day%20you%20find%20out%20why.%22%20Mark%20Twain">
+              Tweet Quote <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <a class="btn btn-outline-dark btn-right w-25" target="_blank" href="https://www.linkedin.com/in/ignacioceaglio/">By Ignacio C.</a>
+        </div>
+    </wrapper>
+    
+    
+
+
+<!--Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos.-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Add React.js.-->
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<!--.Add Redux with React.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/6.0.1/react-redux.min.js"></script>
+<!--SCRIPTS(My Custom JavaScript).-->
+<script src="app-dist.js"></script>
+<!--FCC Proyects Testing Script.-->
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
